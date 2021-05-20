@@ -566,6 +566,12 @@ header {
   padding:0.3rem;
 }
 
+.sessao-orcamento input[type="checkbox"]{
+    width: 2rem;
+    height: 2rem;
+    transform: scale(1.5);
+}
+
 .btn-orcamento{
   text-transform: uppercase;
   padding: 1rem;
