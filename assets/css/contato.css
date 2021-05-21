@@ -8,8 +8,8 @@
 }
 
 .contato-wrapper{
-  width: 70%;
-  height: 35rem;
+  width: 80%;
+  height: 70%;
   display: flex;
   box-shadow: 0 2rem 3rem rgba(0,0,0,0.5);
 }
@@ -62,7 +62,7 @@
 .input-group textarea{
   padding-top: .5rem;
   max-width: 25rem;
-  max-height: 3rem;
+  max-height: 5rem;
 }
 
 .field-label{

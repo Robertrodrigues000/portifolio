@@ -22,9 +22,16 @@ footer{
 .social-list a{
   margin: 2rem;
   color:#a7a7a7;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+ 
 }
 
 .social-list ul{
   display: flex;
+}
+
+footer i:hover{
+  color: #a044ff;
+  transform: scale(1.4);
+  border-radius: 50%;
 }

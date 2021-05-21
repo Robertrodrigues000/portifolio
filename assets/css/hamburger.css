@@ -24,14 +24,14 @@
 }
 
 .show-menu #line1{
-  transform: rotate(45deg) translate(.3rem, .45rem)
+  transform: rotate(45deg) translate(.3rem, .3rem)
 }
 .show-menu #line3{
-  transform: rotate(-45deg) translate(.3rem, -.45rem)
+  transform: rotate(-45deg) translate(.3rem, -.38rem)
 }
 
 .show-menu #line2{
-  opacity: 0;
+  opacity: 0; 
   visibility: hidden;
 }
 

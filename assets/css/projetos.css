@@ -11,6 +11,7 @@
   width: 18rem;
   height: 25rem;
   position: relative;
+  transition: all 0.3s;
 }
 
 .card-img-wrapper{
@@ -18,6 +19,7 @@
   height: 100%;
   border-radius: 0.5rem;
   background: #262626;
+  box-shadow: .2rem .2rem 0.5rem rgba(0, 0, 0, 0.4);
 }
 
 .card-img-wrapper img{
@@ -26,7 +28,7 @@
   height: 100%;
   border-radius: 0.5rem;
   opacity: .8;
-  transition: opacity .3;
+  transition: opacity .3s;
 }
 
 .card-info{
@@ -74,4 +76,8 @@
 
 .card:hover .card-img-wrapper img{
   opacity: .5;
+}
+
+.card:hover{
+  transform: scale(1.04);
 }
