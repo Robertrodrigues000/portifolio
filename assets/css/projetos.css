@@ -4,6 +4,7 @@
 
 .projetos{
   display: flex;
+  
   justify-content: space-evenly;
 }
 
